@@ -42,7 +42,7 @@ public class Solution {
             price[n-1]=a[n-1];
        for(int i=n-2;i>=0;i--)
            {
-                     price[i]=Math.max(price[i+1],a[i]);
+            	price[i]=Math.max(price[i+1],a[i]);
            
            }
        long sum=0;
@@ -50,13 +50,8 @@ public class Solution {
            {
                if(a[j]<price[j])
                    sum+=price[j]-a[j];
-           
-            }
+           }
        return sum;
-       
-       
-       
-       
        
        }
     
