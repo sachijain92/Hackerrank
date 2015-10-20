@@ -1,3 +1,20 @@
+/*Problem Statement
+
+The task is to find the length of the longest subsequence in a given array of integers such that all elements
+of the subsequence are sorted in ascending order. For example, the length of the LIS for 
+{ 15, 27, 14, 38, 26, 55, 46, 65, 85 } is 6 and the longest increasing subsequence is {15, 27, 38, 55, 65, 85}. 
+
+Input Format
+In the first line of input, there is a single number N. 
+In the next N lines input the value of a[i].
+
+Constraints 
+1 ≤ N ≤ 106 
+1 ≤ a[i] ≤ 105
+
+Output Format
+In a single line, output the length of the longest increasing sub-sequence.*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
